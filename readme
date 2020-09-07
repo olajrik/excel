@@ -3,3 +3,7 @@ https://trumpexcel.com/vba-autofilter/
 
 VBA Autofilter.xlsm
 https://www.dropbox.com/s/bcj2r1xn1iriql8/VBA%20Autofilter.xlsm?dl=0
+
+Sub FilterRows()
+Worksheets("Sheet1").Range("A1").AutoFilter Field:=2, Criteria1:="Printer"
+End Sub
